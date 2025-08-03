@@ -17,3 +17,6 @@ jobs:
 
       - name: Directory Contents
         run: ls -l
+
+      - name: Addition of two numbers
+        run: echo "1 + 1 = $((1 + 1))"
